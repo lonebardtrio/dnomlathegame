@@ -235,7 +235,7 @@ function displayGameOver() {
     translate(0, 0, playerZ - 100);
     fill(255, 0, 0);
     textAlign(CENTER, CENTER);
-    textSize(50);
+    textSize(64);
     text('HAPPY DNOMLA', 0, 0);
     pop();
 }
