@@ -20,8 +20,8 @@ let bobbingFrequency = 0.05; // Frequency of the bobbing motion
 
 
 function preload() {
-    playerModel = loadModel('assets/_cat.obj', true); // Ensure the path is correct
-    font = loadFont('assets/Roboto-Bold.ttf');
+    playerModel = loadModel('./assets/_cat.obj', true); // Ensure the path is correct
+    font = loadFont('./assets/Roboto-Bold.ttf');
     // Ensure the path is correct
 }
 
